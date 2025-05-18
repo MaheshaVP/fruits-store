@@ -57,7 +57,7 @@ const Navbar = () => {
               {NavBarMenu.map((menu) => (
                 <li key={menu.id}>
                   <a
-                    href="{menu.link}"
+                    href={menu.link}
                     className="inline-block py-1 px-3 hover:text-primary hover:shadow-[0_3px_0_-1px_#ef4444] font-semibold"
                   >
                     {menu.title}
@@ -65,7 +65,10 @@ const Navbar = () => {
                 </li>
               ))}
 
-              <button className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-200">
+              <button
+                aria-label="Shopping Cart"
+                className="text-2xl hover:bg-primary hover:text-white rounded-full p-2 duration-200"
+              >
                 <MdOutlineShoppingCart />
               </button>
             </ul>
