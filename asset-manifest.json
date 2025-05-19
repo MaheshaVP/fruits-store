@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fruits-store/static/css/main.f90e11c8.css",
-    "main.js": "/fruits-store/static/js/main.b59ae010.js",
+    "main.css": "/fruits-store/static/css/main.1e422798.css",
+    "main.js": "/fruits-store/static/js/main.b710e04f.js",
     "static/js/453.f89aa9ab.chunk.js": "/fruits-store/static/js/453.f89aa9ab.chunk.js",
     "static/media/fruits-splash.png": "/fruits-store/static/media/fruits-splash.95aaaedef6d0f2f2700c.png",
     "static/media/fruit-plate2.png": "/fruits-store/static/media/fruit-plate2.cdd1797ecfc9a1612597.png",
@@ -13,12 +13,12 @@
     "static/media/cherry.png": "/fruits-store/static/media/cherry.a94d268ba2af72466766.png",
     "static/media/orange.png": "/fruits-store/static/media/orange.540c650ab19583b0adb2.png",
     "index.html": "/fruits-store/index.html",
-    "main.f90e11c8.css.map": "/fruits-store/static/css/main.f90e11c8.css.map",
-    "main.b59ae010.js.map": "/fruits-store/static/js/main.b59ae010.js.map",
+    "main.1e422798.css.map": "/fruits-store/static/css/main.1e422798.css.map",
+    "main.b710e04f.js.map": "/fruits-store/static/js/main.b710e04f.js.map",
     "453.f89aa9ab.chunk.js.map": "/fruits-store/static/js/453.f89aa9ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f90e11c8.css",
-    "static/js/main.b59ae010.js"
+    "static/css/main.1e422798.css",
+    "static/js/main.b710e04f.js"
   ]
 }
