@@ -41,7 +41,9 @@ const Footer = () => {
       </motion.div>
 
       <div className="py-2 mt-4 flex justify-center items-center">
-        <p className="text-1xl">&copy; 2025 Fruits-Store. All rights reserved.</p>
+        <p className="text-1xl">
+          &copy; 2025 Fruits-Store. All rights reserved.
+        </p>
       </div>
     </footer>
   );
