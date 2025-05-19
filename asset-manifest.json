@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fruits-store/static/css/main.f90e11c8.css",
+    "main.js": "/fruits-store/static/js/main.b59ae010.js",
+    "static/js/453.f89aa9ab.chunk.js": "/fruits-store/static/js/453.f89aa9ab.chunk.js",
+    "static/media/fruits-splash.png": "/fruits-store/static/media/fruits-splash.95aaaedef6d0f2f2700c.png",
+    "static/media/fruit-plate2.png": "/fruits-store/static/media/fruit-plate2.cdd1797ecfc9a1612597.png",
+    "static/media/banner-bg.jpg": "/fruits-store/static/media/banner-bg.8b3eba470670ec83e0d2.jpg",
+    "static/media/fruit-plate.png": "/fruits-store/static/media/fruit-plate.9b326f9b0cdbbc5b87b8.png",
+    "static/media/apple.png": "/fruits-store/static/media/apple.bfe5155197370c39c0cf.png",
+    "static/media/avocado.png": "/fruits-store/static/media/avocado.6e497c8f6b9dd0670d0c.png",
+    "static/media/leaf.png": "/fruits-store/static/media/leaf.2494492049ec270e2011.png",
+    "static/media/cherry.png": "/fruits-store/static/media/cherry.a94d268ba2af72466766.png",
+    "static/media/orange.png": "/fruits-store/static/media/orange.540c650ab19583b0adb2.png",
+    "index.html": "/fruits-store/index.html",
+    "main.f90e11c8.css.map": "/fruits-store/static/css/main.f90e11c8.css.map",
+    "main.b59ae010.js.map": "/fruits-store/static/js/main.b59ae010.js.map",
+    "453.f89aa9ab.chunk.js.map": "/fruits-store/static/js/453.f89aa9ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f90e11c8.css",
+    "static/js/main.b59ae010.js"
+  ]
+}
