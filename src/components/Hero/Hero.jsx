@@ -7,7 +7,7 @@ import { FadeRight } from "../../utility/animation";
 
 const Hero = () => {
   return (
-    <section>
+    <section id="#home">
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
         {/* brand info */}
         <div className="flex flex-col justify-center py-14 md:py-0 relative z-10 ">

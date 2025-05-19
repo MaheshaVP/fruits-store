@@ -3,34 +3,7 @@ import { FaLeaf } from "react-icons/fa";
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
-
-const NavBarMenu = [
-  {
-    id: 1,
-    title: "Home",
-    link: "/",
-  },
-  {
-    id: 2,
-    title: "Products",
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "About",
-    link: "#",
-  },
-  {
-    id: 4,
-    title: "Shop",
-    link: "#",
-  },
-  {
-    id: 5,
-    title: "Contact",
-    link: "#",
-  },
-];
+import NavBarMenu from "../Menudata";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -74,15 +47,15 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* mobile menu section */}
+          {/* mobile menu toggle button */}
           <div className="md:hidden" onClick={() => setOpen(!open)}>
             <MdMenu className="text-4xl" />
           </div>
         </motion.div>
       </nav>
 
-      {/* mobile menu section */}
-      <ResponsiveMenu open={open} />
+      {/* mobile menu */}
+      <ResponsiveMenu open={open} setOpen={setOpen} />
     </>
   );
 };

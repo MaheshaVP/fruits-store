@@ -1,7 +1,8 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import NavBarMenu from "../Menudata";
 
-const ResponsiveMenu = ({ open }) => {
+const ResponsiveMenu = ({ open, setOpen }) => {
   return (
     <AnimatePresence mode="wait">
       {open && (
@@ -14,11 +15,19 @@ const ResponsiveMenu = ({ open }) => {
         >
           <div className="text-xl font-semibold uppercase bg-primary text-white py-10 m-6 rounded-3xl">
             <ul className="flex flex-col items-center gap-10">
-              <li>Home</li>
-              <li>Products</li>
-              <li>About</li>
-              <li>Shop</li>
-              <li>Contact</li>
+              {NavBarMenu.map((menu) => (
+                <li key={menu.id}>
+                  {" "}
+                  {/* ✅ Add key here */}
+                  <a
+                    href={menu.link}
+                    onClick={() => setOpen(false)}
+                    className="hover:text-secondary"
+                  >
+                    {menu.title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </motion.div>
